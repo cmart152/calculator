@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(243, 243, 243);
+}
+
+#calcBody {
+    margin-top: 60px;;
+    width: 700px;
+    height: 840px;
+    border: solid 1px black;
+    background-color: rgb(94, 143, 207);
+    display: flex;
+    position: relative;
+    align-content: center;
+    left:50%;
+    margin-left: -350px;
+    border-radius: 25px;;
+}
+
+#display {
+    display:flex;
+    position:fixed;
+    justify-content: flex-end;
+    width: 675px;
+    height: 160px;
+    margin: 60px 0px 10px 10px;
+    border: solid 3px black;
+    background-color: rgb(194, 194, 194);
+    font-size: 120px;
+    font-family: 'Bungee', cursive;
+    overflow:hidden;
+    border-radius: 15px;
+}
+
+#buttons {
+    margin: 80px 0px 0px 25px;
+}
+
+.button {
+    width: 120px;
+    height: 110px;
+    background-color: rgb(185, 185, 185);
+    border: solid 1px black;
+    border-radius: 15px;
+    font-size: 50px;
+    
+}
+
+#row1 {
+    display: flex;
+    position: fixed;
+    margin-top: 200px;
+    width: 650px;
+    justify-content: space-between;
+}
+
+#row2 {
+    display: flex;
+    position: fixed;
+    margin-top: 320px;
+    width: 650px;
+    justify-content: space-between;
+}
+
+#row3 {
+    display: flex;
+    position: fixed;
+    margin-top: 440px;
+    width: 650px;
+    justify-content: space-between;
+}
+
+
+
+#row4 {
+    display: flex;
+    position: fixed;
+    margin-top: 560px;
+    padding-right: 50px;
+    width: 520px;
+    justify-content: space-between;
+}
+
+#equal {
+    height: 230px;
+    background-color: rgba(167, 255, 214, 0.466);
+    
+}
+
+#clearBtn {
+    background-color: rgba(255, 92, 92, 0.651);
+}
+
+#deleteBtn {
+    background-color: rgba(255, 92, 92, 0.651);
+}
+
+.opButton {
+    background-color: rgb(149, 149, 149);
+}
